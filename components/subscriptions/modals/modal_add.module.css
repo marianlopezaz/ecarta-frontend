@@ -1,0 +1,110 @@
+.select_input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  margin: 10px;
+  margin-left: 0;
+  color: var(--black);
+  cursor: pointer;
+  border-bottom: solid 1px;
+  border-bottom-color: rgba(104, 104, 104, 0.6);
+}
+#add_btn {
+  border: none;
+  border-radius: 10px;
+  background-color: var(--black);
+  color: #ffffff;
+  padding: 15px 40px 15px 25px;
+  font-size: 18px;
+  position: relative;
+  left: 13%;
+  transition: all 0.3s;
+}
+#add_btn p {
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  left: 15px;
+  margin-bottom: 0;
+}
+#add_btn img {
+  width: 20px;
+}
+.textArea {
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 10px;
+  margin-top: 20px;
+  margin-left: 0px;
+  border-bottom: solid 1px;
+  border-bottom-color: rgba(104, 104, 104, 0.6);
+}
+.descriptionsContainer {
+  border-radius: 10px;
+  background-color: rgb(243, 243, 243);
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+.delete_icon_container {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 5px;
+  position: relative;
+  right: -5px;
+}
+.delete_icon_container span {
+  text-transform: uppercase;
+  color: #fd5f78;
+  font-size: 15px;
+  position: relative;
+  left: 5px;
+}
+.delete_icon_container div {
+  background-color: #ffe8eb;
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+  padding: 10px;
+}
+.delete_icon_container img {
+  width: 25px;
+  position: relative;
+  bottom: 2px;
+}
+@media (max-width: 959px) {
+  #add_btn {
+    padding: 15px 25px;
+  }
+  .actions_container {
+    position: fixed !important;
+    bottom: -10px;
+    height: 70px;
+    width: 100% !important;
+    text-align: center !important;
+    background-color: #ffffff !important;
+  }
+  .deleteModalTitle {
+    margin-top: 200px;
+  }
+  .delete_icon_container span {
+    left: 0px;
+  }
+  .delete_icon_container div {
+    position: relative;
+    top: 2px;
+  }
+  .delete_icon_container img {
+    width: 20px;
+    right: 5px;
+  }
+}
+@media (max-width: 600px) {
+  #add_btn {
+    padding: 8px 15px 10px 15px;
+  }
+  #add_btn img {
+    width: 20px;
+  }
+}

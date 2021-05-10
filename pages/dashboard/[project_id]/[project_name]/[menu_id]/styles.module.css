@@ -1,0 +1,8 @@
+.media_container {
+  overflow-y: auto;
+  position: relative;
+  left: 20px;
+  scrollbar-width: none;
+  transition: all 0.3s;
+  scroll-behavior: smooth;
+}

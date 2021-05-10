@@ -1,0 +1,119 @@
+.folder_container {
+  margin-top: 30px;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  padding-left: 30px;
+}
+.go_back_icon {
+  width: 25px;
+}
+.folder {
+  display: inline-block;
+  color: var(--black);
+  transition: all 0.3s;
+  margin-left: 6px;
+}
+.folder:nth-child(2):hover,
+.folder:nth-child(4):hover a {
+  color: var(--black);
+  text-decoration: none;
+  background-color: #7e7e7e18;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.folder_item {
+  margin-left: 10px;
+  font-size: 15px;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding: 5px;
+}
+.folder_name_item {
+  font-weight: 700;
+}
+.folder_separator {
+  width: 15px;
+}
+.items_container {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.titles_legend {
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 8px;
+  margin-bottom: 0;
+}
+#menu_legend {
+  position: relative;
+  top: 10px;
+}
+.media_container {
+  display: flex;
+  overflow-y: auto;
+  position: relative;
+  left: 20px;
+  scrollbar-width: none;
+  transition: all 0.3s;
+  scroll-behavior: smooth;
+}
+.media_item_container {
+  min-width: 400px;
+  margin-right: 50px;
+}
+.slide_forward {
+  position: absolute;
+  top: 48%;
+  right: -40px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  padding: 10px;
+  box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.slide_backward {
+  position: absolute;
+  top: 48%;
+  left: -5px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  padding: 10px;
+  box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.slide_backward img {
+  width: 25px;
+  transform: rotate(180deg);
+}
+.slide_forward img {
+  width: 25px;
+}
+@media (max-width: 600px) {
+  .titles_legend {
+    font-size: 18px;
+  }
+  .folder_item {
+    margin-left: -5px;
+  }
+  .media_item_container {
+    min-width: 350px;
+  }
+  .slide_forward {
+    display: none;
+  }
+  .slide_backward {
+    display: none;
+  }
+}
+@media (max-width: 450px) {
+  .media_item_container {
+    min-width: 300px;
+  }
+}
+@media (max-width: 380px) {
+  .media_item_container {
+    min-width: 260px;
+  }
+}

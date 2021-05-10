@@ -1,0 +1,177 @@
+#close_container {
+  position: absolute;
+  top: 1%;
+  right: 30%;
+  cursor: pointer;
+  z-index: 99;
+}
+
+#dialog_email_content #resend_email_input {
+  font-size: 15px;
+}
+#dialog_email_content {
+  font-size: 15px;
+}
+#dialog_email_title {
+  font-weight: bold; 
+  margin-top: 10px;
+}
+#email_img {
+  width: 80px;
+}
+
+#close_container_confirm {
+  position: absolute;
+  top: 4%;
+  right: 3%;
+  cursor: pointer;
+  z-index: 99;
+}
+
+#close_icon {
+  width: 20px;
+  transition: all 0.2s;
+}
+#close_icon:hover {
+  transform: rotate(180deg);
+}
+#logo {
+  width: 130px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.sub_title {
+  color: var(--pink);
+  font-weight: 300;
+  font-size: 22px;
+}
+#title {
+  font-size: 30px;
+  font-weight: 700;
+}
+.input {
+  width: 100%;
+}
+#redirect a {
+  color: var(--pink);
+  font-weight: 700;
+}
+#login {
+  border: none;
+  background: var(--pink);
+  padding: 10px 45px;
+  border-radius: 20px 0 20px 0px;
+}
+#login:hover {
+  background-color: #242424;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+#login:hover #arrow {
+  fill: #ffffff;
+}
+#login span {
+  display: inline;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+}
+#arrow {
+  display: inline-block;
+  width: 25px;
+  fill: #ffffff;
+  position: relative;
+  left: 10px;
+  top: -1px;
+}
+.resend_code_button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  background-color: var(--black);
+  color: #ffffff;
+  border-radius: 20px;
+  margin: 20px;
+}
+@media (max-width: 998px) {
+  #close_container {
+    top: 2%;
+    right: 20%;
+  }
+  #close_container_confirm {
+    top: 3%;
+    right: 6%;
+  }
+  #close_icon {
+    width: 18px;
+  }
+  #dialog_email_content #resend_email_input {
+    font-size: 14px;
+  }
+  #dialog_email_title {
+    font-size: 19px;
+  }
+  #email_img {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 575px) {
+  #close_container {
+    top: 2%;
+    right: 10%;
+  }
+  #register_container {
+    padding-left: 50px;
+    margin-top: 20px;
+  }
+  #logo {
+    width: 110px;
+  }
+  .input {
+    width: 100%;
+  }
+
+  #dialog_email_content #resend_email_input {
+    font-size: 13px;
+  }
+
+  #dialog_email_title {
+    font-size: 18px;
+  }
+}
+@media (max-width: 450px) {
+  #close_container {
+    top: 2%;
+    right: 5%;
+  }
+  .sub_title {
+    font-size: 18px;
+  }
+  #title {
+    font-size: 25px;
+  }
+  #login span {
+    font-size: 18px;
+  }
+  #close_icon {
+    width: 15px;
+  }
+
+  #dialog_email_content #resend_email_input {
+    font-size: 14px;
+  }
+
+  #dialog_email_title {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 330px) {
+  #dialog_email_content #resend_email_input {
+    font-size: 12px;
+  }
+
+  #dialog_email_title {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,149 @@
+#add_btn {
+  border: none;
+  border-radius: 10px;
+  background-color: var(--black);
+  padding: 10px 15px;
+  font-size: 18px;
+  position: relative;
+  left: 20px;
+  transition: all 0.3s;
+}
+#add_btn img {
+  width: 25px;
+}
+.reference_media {
+  margin-top: 10px;
+}
+.reference_media p {
+  font-weight: 700;
+}
+.upload_container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 3px dashed #e9eff5;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.upload_container:hover {
+  background-color: #e6f1ff;
+}
+.upload_container img {
+  width: 50px;
+  border-radius: 15px;
+}
+.info {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.info span {
+  color: #258dff;
+  cursor: pointer;
+  z-index: 99;
+}
+.supports {
+  font-weight: 300;
+  font-size: 15px;
+  color: #9bb2c7;
+}
+.view_file_container {
+  border: 3px solid #e9eff5;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.img_name_container {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.img_icon {
+  width: 20px;
+  border-radius: 5px;
+}
+.file_name {
+  font-size: 15px;
+  position: relative;
+  left: 10px;
+  top: 1px;
+}
+.open_modal {
+  background: none;
+  font-size: 15px;
+  border: none;
+  color: #9bb2c7;
+}
+.open_modal img {
+  width: 22px;
+}
+.open_modal span {
+  margin-left: 10px;
+}
+.file_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.view_img {
+  color: #258dff;
+  font-weight: 700;
+  font-size: 15px;
+  position: relative;
+  top: 2px;
+  left: 10px;
+}
+@media (max-width: 600px) {
+  .title {
+    font-size: 16px;
+  }
+  .upload_container img {
+    width: 40px;
+  }
+  .info {
+    font-size: 16px;
+  }
+  .supports {
+    font-size: 14px;
+  }
+  .img_icon {
+    width: 19px;
+  }
+  .file_name {
+    font-size: 13px;
+  }
+  #add_btn {
+    padding: 8px 15px 10px 15px;
+  }
+  #add_btn img {
+    width: 20px;
+  }
+  .file_img {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (max-width: 575px) {
+  .open_modal img {
+    width: 25px;
+  }
+  .open_modal span {
+    display: none;
+  }
+}
+@media (max-width: 450px) {
+  .open_modal img {
+    width: 23px;
+  }
+}
+@media (max-width: 400px) {
+  .pdf_download {
+    font-size: 14px;
+  }
+  .file_name {
+    font-size: 14px;
+  }
+}

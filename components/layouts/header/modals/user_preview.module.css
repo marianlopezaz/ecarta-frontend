@@ -1,0 +1,141 @@
+#header_username {
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: capitalize;
+  position: relative;
+  right: 10px;
+  top: 1px;
+}
+.svg {
+  width: 40px;
+  height: 40px;
+}
+#close_menu_container {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+#close_icon {
+  width: 20px;
+  cursor: pointer;
+}
+#close_user_container {
+  position: absolute;
+  top: 20px;
+  left: 5%;
+}
+#back_icon {
+  width: 28px;
+  cursor: pointer;
+}
+.menu_card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navigation_reference {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.navigation_reference p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: var(--pink);
+  font-weight: 700;
+}
+.logout_icon {
+  width: 20px;
+  display: inline-block;
+  position: relative;
+  top: -2px;
+}
+.logout_text {
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  left: 10px;
+  margin: 0;
+}
+.profile_field {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.input {
+  width: 100%;
+}
+#save_profile_btn {
+  border: none;
+  background-color: var(--black);
+  padding: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+#save_profile_btn:hover {
+  background-color: var(--pink);
+  color: #ffffff;
+}
+#role_name {
+  text-transform: capitalize;
+}
+#plan_details {
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--pink);
+  position: relative;
+  right: 8px;
+  cursor: default !important;
+}
+#license_date{
+  font-size: 12px;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+#subscription_details {
+  margin-top: 5px;
+  font-size: 10px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+#premium_details {
+  text-align: center;
+  padding: 10px;
+  background-color: var(--pink);
+  border-radius: 30px;
+}
+#premium_link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+#details_link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #808080;
+}
+#license {
+  background-color: #d66e6e;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+
+#plan_details_role{
+  font-weight: bold;
+}
+@media (max-width: 960px) {
+  #close_menu_container {
+    top: 20px !important;
+  }
+}

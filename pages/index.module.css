@@ -1,0 +1,633 @@
+#hero_background {
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+#responsive_navbar_background {
+  display: none;
+}
+#nav_container {
+  height: 100px;
+}
+#responsive_menu_container {
+  display: none;
+}
+.nav_link_login,
+.nav_link_register {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+.nav_link_login {
+  position: relative;
+  top: 22px;
+}
+.nav_link_login a {
+  color: var(--black);
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: 700;
+}
+.nav_link_login a:hover {
+  color: var(--pink);
+  text-decoration: none;
+}
+.nav_link_register {
+  position: relative;
+  left: 40px;
+}
+.nav_link_register span {
+  color: #ffffff;
+  font-size: 15px;
+  background-color: var(--pink);
+  padding: 15px 30px 15px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.nav_link_register span:hover {
+  background-color: var(--black);
+}
+.arrow {
+  display: inline-block;
+  width: 25px;
+  fill: #ffffff;
+  position: relative;
+  left: 10px;
+  top: -1px;
+}
+#right_hero_container {
+  position: relative;
+  top: 50px;
+  left: 10%;
+}
+#right_hero_container div {
+  width: 80%;
+}
+.styled_zoomed_img {
+  width: 350px;
+  position: absolute;
+  top: 0;
+  right: 30%;
+  display: none;
+  transition: all 0.3s;
+}
+.first_text {
+  font-size: 30px;
+  font-weight: 300;
+}
+.sections_title {
+  font-size: 30px;
+  font-weight: 300;
+}
+.highlighted_text {
+  font-size: 36px;
+  font-weight: 700;
+}
+.describing_text {
+  font-size: 18px;
+}
+.first_redirect_container {
+  margin-top: 40px;
+}
+.first_redirect_container a.start_now {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: var(--pink);
+  padding: 15px 25px;
+  border-radius: 30px;
+  margin-left: 10px;
+  transition: all 0.3s;
+}
+.first_redirect_container a.start_now:hover {
+  background-color: var(--black);
+  text-decoration: none;
+}
+.first_redirect_container a#see_demo {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--black);
+  border: 2px solid var(--black);
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: all 0.3s;
+}
+.first_redirect_container a#see_demo:hover {
+  background-color: var(--pink);
+  color: #ffffff;
+  border-color: var(--pink);
+  text-decoration: none;
+}
+#second_section_container {
+  margin-top: 20%;
+}
+.list_icon_container div {
+  background-color: var(--black);
+  padding: 20px;
+  border-radius: 50%;
+  width: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.list_title {
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.list_description {
+  font-size: 18px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#third_section_text_container {
+  position: relative;
+  top: 100;
+}
+.faq_titles {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.subscription_cards {
+  background-color: #ffffff;
+  width: 90%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 20px;
+  height: 370px;
+}
+.subscription_name {
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.subscription_dollar {
+  font-size: 24px;
+}
+.subscription_price {
+  font-weight: 700;
+  font-size: 36px;
+}
+.subscription_total_price {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.subscription_list {
+  font-weight: 300;
+  padding-left: 20px;
+}
+.subscription_list li {
+  margin-bottom: 10px;
+}
+.principal_text {
+  font-size: 48px;
+  font-weight: 700;
+}
+.last_redirect_container {
+  margin-top: 30px;
+  text-align: center;
+}
+.last_redirect_container a {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: var(--black);
+  padding: 15px 45px 15px 40px;
+  border-radius: 30px;
+  transition: all 0.3s;
+}
+.last_redirect_container a:hover {
+  background-color: var(--pink);
+  text-decoration: none;
+}
+#faq_text_container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.socials {
+  font-size: 15px;
+  display: inline-block;
+  margin-left: 15px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 100%;
+  transition: all 0.3s;
+}
+.socials:hover {
+  background-color: var(--pink);
+}
+.socials img {
+  width: 25px;
+}
+@media (max-width: 1200px) {
+  .nav_link_register span {
+    padding: 13px 25px 13px 20px;
+  }
+  .arrow {
+    width: 20px;
+  }
+  #logo_img_container {
+    left: 7% !important;
+  }
+  #right_hero_container {
+    left: 5%;
+  }
+  #right_hero_container div {
+    width: 95%;
+  }
+  .first_text {
+    font-size: 20px;
+  }
+  .sections_title {
+    font-size: 24px;
+  }
+  .highlighted_text {
+    font-size: 26px;
+  }
+  .describing_text {
+    font-size: 15px;
+  }
+  #first_image {
+    width: 300px;
+  }
+  .first_redirect_container a.start_now {
+    font-size: 15px;
+  }
+  .first_redirect_container a#see_demo {
+    font-size: 15px;
+  }
+  .list_icon_container div {
+    width: 80px;
+  }
+  .list_icon_container div img {
+    width: 40px;
+  }
+  .list_title {
+    font-size: 18px;
+  }
+  .list_description {
+    font-size: 15px;
+  }
+  #illustration1 {
+    width: 450px;
+  }
+  #illustration2 {
+    width: 450px;
+  }
+  .subscription_cards {
+    width: 80%;
+  }
+  .subscription_name {
+    font-size: 20px;
+  }
+  .subscription_dollar {
+    font-size: 20px;
+  }
+  .subscription_price {
+    font-size: 30px;
+  }
+  .subscription_total_price {
+    font-size: 15px;
+  }
+  .subscription_list {
+    font-size: 15px;
+  }
+  .principal_text {
+    font-size: 36px;
+  }
+  .last_redirect_container a {
+    font-size: 18px;
+  }
+  .faq_titles {
+    font-size: 18px;
+  }
+  .socials img {
+    width: 20px;
+  }
+}
+@media (max-width: 998px) {
+  #hero_background {
+    width: 600px;
+  }
+  .styled_zoomed_img {
+    width: 300px;
+    right: 20%;
+  }
+  .nav_link_login a {
+    font-size: 12px;
+  }
+  .nav_link_register span {
+    font-size: 12px;
+  }
+  .subscription_cards {
+    width: 100%;
+  }
+  #third_section_text_container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+  }
+  #third_section_text_container div {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  #responsive_navbar_background {
+    display: initial;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+  #desktop_menu_container {
+    display: none;
+  }
+  #logo_img_container img {
+    width: 80px;
+  }
+  #logo_img_container {
+    left: 8% !important;
+  }
+  #hero_background {
+    display: none;
+  }
+  .styled_zoomed_img {
+    width: 250px;
+    top: 22%;
+    left: 31%;
+  }
+  #right_hero_container {
+    position: initial;
+    text-align: center;
+  }
+  #right_hero_container div {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #first_image_container {
+    display: none;
+  }
+  #first_image {
+    width: 250px;
+    position: relative;
+    top: 30%;
+  }
+  #second_section_container {
+    margin-top: 15%;
+  }
+  .sections_title {
+    font-size: 22px;
+  }
+  #illustration1 {
+    width: 380px;
+  }
+  .subscription_cards {
+    width: 100%;
+  }
+  .principal_text {
+    font-size: 30px;
+  }
+  .last_redirect_container a {
+    font-size: 15px;
+  }
+  #faq_title_container {
+    text-align: center;
+  }
+  .faq_text_container {
+    text-align: center !important;
+  }
+  #illustration2 {
+    width: 380px;
+  }
+  /* Menu responsive */
+  #responsive_menu_container {
+    display: initial;
+    position: relative;
+    text-align: right;
+    right: 8%;
+    top: 35px;
+  }
+  #menu {
+    width: 28px;
+    cursor: pointer;
+  }
+  #close_menu_container {
+    position: absolute;
+    top: 3%;
+    right: 7%;
+    cursor: pointer;
+    z-index: 9999;
+  }
+  #close_icon {
+    width: 20px;
+  }
+  #ingresar_responsive {
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 700;
+    transition: all 0.3s;
+  }
+  #ingresar_responsive:hover {
+    color: var(--pink);
+    text-decoration: none;
+  }
+  #register_responsive {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: var(--black);
+    padding: 10px 40px 10px 35px;
+    border-radius: 30px;
+    transition: all 0.3s;
+  }
+  #register_responsive:hover {
+    background-color: var(--pink);
+    text-decoration: none;
+  }
+  #responsive_user_container {
+    position: relative;
+    right: 10px;
+  }
+  #responsive_user_id {
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    top: 2px;
+  }
+  #responsive_user_id span {
+    font-weight: 700;
+  }
+  .responsive_socials {
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 15px;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 100%;
+    background-color: var(--black);
+    transition: all 0.3s;
+  }
+  .responsive_socials:hover {
+    background-color: var(--pink);
+  }
+  .responsive_socials img {
+    width: 20px;
+  }
+}
+@media (max-width: 568px) {
+  #responsive_navbar_background {
+    width: 200px;
+  }
+  .arrow {
+    width: 18px;
+  }
+  #right_hero_container div {
+    width: 98%;
+  }
+  .styled_zoomed_img {
+    width: 250px;
+    top: 22%;
+    left: 22%;
+  }
+  .first_text {
+    font-size: 18px;
+  }
+  .highlighted_text {
+    font-size: 22px;
+  }
+  .describing_text {
+    font-size: 13px;
+  }
+  #first_image {
+    width: 250px;
+  }
+  .sections_title {
+    font-size: 20px;
+  }
+  .list_icon_container div {
+    width: 70px;
+  }
+  .list_icon_container div img {
+    width: 30px;
+  }
+  .list_title {
+    font-size: 16px;
+  }
+  .list_description {
+    font-size: 13px;
+  }
+  #illustration1 {
+    width: 350px;
+  }
+  .responsive_container {
+    margin-right: 0;
+  }
+  .subscription_cards {
+    width: 250px;
+    margin-bottom: 20px;
+    height: 350px;
+  }
+  .subscription_pro {
+    height: 350px;
+  }
+  #illustration2 {
+    width: 350px;
+  }
+  .subscription_name {
+    font-size: 18px;
+  }
+  .subscription_dollar {
+    font-size: 18px;
+  }
+  .subscription_price {
+    font-size: 30px;
+  }
+  .subscription_total_price {
+    font-size: 13px;
+  }
+  .subscription_list {
+    font-size: 13px;
+  }
+  .principal_text {
+    font-size: 26px;
+  }
+  #faq_title_container {
+    text-align: center;
+  }
+  #faq_text_container {
+    text-align: center;
+  }
+  .socials {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 450px) {
+  #responsive_navbar_background {
+    width: 150px;
+  }
+  .responsive_container {
+    margin-top: 30px;
+  }
+  #right_hero_container {
+    margin-top: -30px;
+  }
+  .first_text {
+    font-size: 16px;
+  }
+  .highlighted_text {
+    font-size: 20px;
+  }
+  .describing_text {
+    font-size: 13px;
+  }
+  #first_image {
+    width: 220px;
+  }
+  .styled_zoomed_img {
+    width: 230px;
+  }
+  .sections_title {
+    font-size: 18px;
+  }
+  #illustration1 {
+    width: 300px;
+  }
+  #illustration2 {
+    width: 300px;
+  }
+  .subscription_price {
+    font-size: 25px;
+  }
+  .faq_titles {
+    font-size: 15px;
+  }
+}
+@media (max-width: 390px) {
+  #responsive_navbar_background {
+    width: 120px;
+  }
+  .styled_zoomed_img {
+    width: 210px;
+    top: 26%;
+    left: 20%;
+  }
+}
+@media (max-width: 340px) {
+  .first_redirect_container a.start_now {
+    font-size: 13px;
+  }
+  .first_redirect_container a#see_demo {
+    font-size: 13px;
+  }
+}

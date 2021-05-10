@@ -1,0 +1,34 @@
+#close_menu_container {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+#close_icon {
+  width: 20px;
+  cursor: pointer;
+}
+.download_btn {
+  border: none;
+  background-color: var(--black);
+  color: #ffffff;
+  padding: 10px 120px 10px 120px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+.download_btn:hover {
+  background-color: var(--pink);
+}
+@media (max-width: 960px) {
+  #close_menu_container {
+    top: 2%;
+  }
+  .qr {
+    width: 280px !important;
+    height: 280px !important;
+  }
+  .download_btn {
+    padding: 10px 70px 10px 70px;
+  }
+}

@@ -1,0 +1,103 @@
+#close_container {
+  position: absolute;
+  top: 1%;
+  right: 30%;
+  cursor: pointer;
+  z-index: 99;
+}
+#close_icon {
+  width: 20px;
+  transition: all 0.2s;
+}
+#close_icon:hover {
+  transform: rotate(180deg);
+}
+#logo {
+  width: 130px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.sub_title {
+  color: var(--pink);
+  font-weight: 300;
+  font-size: 22px;
+}
+#title {
+  font-size: 30px;
+  font-weight: 700;
+}
+.input {
+  width: 100%;
+}
+#redirect a {
+  color: var(--pink);
+  font-weight: 700;
+}
+#login {
+  border: none;
+  background: var(--pink);
+  padding: 10px 45px;
+  color: #ffffff;
+  border-radius: 20px 0 20px 0px;
+}
+#login:hover {
+  background-color: #242424;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+#login:hover #arrow {
+  fill: #ffffff;
+}
+#login span {
+  display: inline;
+  font-weight: 700;
+  font-size: 20px;
+}
+.arrow {
+  display: inline-block;
+  width: 25px;
+  fill: #ffffff;
+  position: relative;
+  left: 10px;
+  top: -1px;
+}
+@media (max-width: 998px) {
+  #close_container {
+    top: 2%;
+    right: 20%;
+  }
+  #close_icon {
+    width: 18px;
+  }
+}
+@media (max-width: 575px) {
+  #close_container {
+    top: 2%;
+    right: 10%;
+  }
+  #login_container {
+    padding-left: 50px;
+    margin-top: 20px;
+  }
+  #logo {
+    width: 110px;
+  }
+  .input {
+    width: 100%;
+  }
+}
+@media (max-width: 450px) {
+  #close_container {
+    top: 2%;
+    right: 5%;
+  }
+  .sub_title {
+    font-size: 18px;
+  }
+  #title {
+    font-size: 25px;
+  }
+  #login span {
+    font-size: 18px;
+  }
+}

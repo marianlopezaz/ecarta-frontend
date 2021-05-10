@@ -1,0 +1,30 @@
+#edit_btn {
+  border: none;
+  border-radius: 30px;
+  background-color: var(--black);
+  color: #ffffff;
+  padding: 15px 40px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: all 0.3s;
+}
+#edit_btn:hover {
+  background-color: var(--black);
+  color: #ffffff;
+}
+@media (max-width: 991px) {
+  #edit_btn {
+    padding: 12px 25px 15px 25px;
+  }
+  #edit_btn img{
+    width: 25px;
+  }
+}
+@media (max-width: 600px) {
+  #edit_btn {
+    padding: 10px 20px 12px 20px;
+  }
+  #edit_btn img{
+    width: 22px;
+  }
+}

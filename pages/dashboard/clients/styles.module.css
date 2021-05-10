@@ -1,0 +1,92 @@
+#title_name {
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: uppercase;
+  position: relative;
+  top: 10px;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+#updating_spinner {
+  position: relative;
+  top: 18px;
+  right: 10px;
+}
+#updating_text {
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+  top: 15px;
+}
+.totals_cards {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.totals_cards img {
+  display: inline-block;
+  width: 50px;
+  position: relative;
+  bottom: 10px;
+  right: 10px;
+}
+.totals_cards div {
+  display: inline-block;
+}
+.totals_cards div .totals_name {
+  font-size: 14px;
+  color: #b3b3b3;
+  margin-bottom: 5px;
+  position: relative;
+  left: 5px;
+}
+.totals_cards div .totals_amount {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+@media (max-width: 959px) {
+  #updating_spinner {
+    top: 3px;
+    right: 15px;
+  }
+  #updating_text {
+    top: 0px;
+  }
+}
+@media (max-width: 759px) {
+  #title_name {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 22px;
+  }
+  #updating_container {
+    text-align: left;
+  }
+  #updating_spinner {
+    right: 0px;
+    left: 15px;
+    top: 17px;
+  }
+  #updating_text {
+    left: 25px;
+    top: 12px;
+  }
+}
+@media (max-width: 575px) {
+  #title_name {
+    font-size: 20px;
+  }
+  .totals_cards {
+    max-width: 100% !important;
+  }
+}
+@media (max-width: 415px) {
+  #title_name {
+    margin-left: 10px;
+  }
+}

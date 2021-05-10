@@ -1,0 +1,238 @@
+/* Presentacion Restaurante */
+#home_redirect{
+  color: var(--black);
+  background-color: #ffffffe5;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 15px;
+  transition: all .3s;
+}
+#home_redirect:hover{
+  text-decoration: none;
+}
+#home_redirect img{
+  position: relative;
+  bottom: 3px;
+  width: 22px;
+}
+#menu_background {
+  height: 100vh;
+  min-height: 850px;
+  background-image: url("/images/demo/menu_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#menu_container {
+  background-color: #ffffffee;
+  margin: auto;
+  border-radius: 5px;
+}
+#menu_container a {
+  color: var(--black);
+}
+#menu_container a:hover {
+  text-decoration: none;
+}
+.info_container {
+  padding: 0 !important;
+}
+.carousel_item_header {
+  background-color: var(--black);
+  height: 100px !important;
+}
+.carousel_item_footer {
+  background-color: var(--black);
+}
+.carousel_caption {
+  position: initial !important;
+  height: 100px !important;
+}
+#logo_img {
+  width: 60px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.restaurant_title {
+  font-weight: 700;
+  font-size: 20px;
+}
+.restaurant_desciption {
+  font-weight: 300;
+  font-size: 15px;
+}
+.menu_title {
+  font-weight: 700;
+  text-align: left;
+  padding-left: 15px;
+  margin-top: 5px;
+  font-size: 18px;
+}
+.menu_img {
+  width: 75%;
+  height: 150px;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-left: 13px;
+}
+.menu_item_title {
+  font-weight: 700;
+  text-align: left;
+  padding-left: 15px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.menu_item_desciption {
+  font-weight: 300;
+  text-align: left;
+  padding-left: 15px;
+  font-size: 13px;
+}
+#next_slide {
+  font-size: 12px;
+}
+#next_slide_arrow {
+  width: 25px;
+  transform: rotate(180deg);
+  position: relative;
+  left: 10px;
+}
+/* Menus */
+.menu_background {
+  height: 100vh;
+  min-height: 600px;
+  background-image: url("/images/demo/menu_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.menu_container {
+  height: 100vh;
+  background-color: #ffffffee;
+}
+.go_back_link {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 99999;
+}
+.go_back_link img {
+  background-color: #ffffffe5;
+  border-radius: 100%;
+  padding: 10px;
+  width: 45px;
+}
+.menu_header_img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  border-radius: 20px;
+}
+.inter_menu_title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.inter_menu_desciption {
+  font-weight: 300;
+  font-size: 15px;
+}
+.inter_menu_picture {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60px;
+  width: 60px;
+  border-radius: 15px;
+  display: inline-block;
+}
+.inter_items_container:before {
+  content: "";
+  float: left;
+  width: 5px;
+  height: 70px;
+}
+.inter_items_container {
+  display: inline-block;
+  position: relative;
+  left: 5px;
+  bottom: 5px;
+  width: 79%;
+  height: 70px;
+  overflow: hidden;
+}
+.inter_items_container > *:first-child {
+  float: right;
+  width: 100%;
+  margin-left: -5px;
+}
+.inter_items_container:after {
+  content: "\02026";
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  float: right;
+  position: relative;
+  top: -25px;
+  left: 100%;
+  width: 3em;
+  margin-left: -3em;
+  padding-right: 5px;
+  text-align: right;
+  background-size: 100% 100%; /* 512x1 image,gradient for IE9. Transparent at 0% -> white at 50% -> white at 100%.*/
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAABCAMAAACfZeZEAAAABGdBTUEAALGPC/xhBQAAAwBQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wDWRdwAAAP90Uk5TgsRjMZXhS30YrvDUP3Emow1YibnM9+ggOZxrBtpRRo94gxItwLOoX/vsHdA2yGgL8+TdKUK8VFufmHSGgAQWJNc9tk+rb5KMCA8aM0iwpWV6dwP9+fXuFerm3yMs0jDOysY8wr5FTldeoWKabgEJ8RATG+IeIdsn2NUqLjQ3OgBDumC3SbRMsVKsValZplydZpZpbJOQco2KdYeEe36BDAL8/vgHBfr2CvTyDu8R7esU6RcZ5ecc4+Af3iLcJSjZ1ivT0S/PMs3LNck4x8U7wz7Bv0G9RLtHuEq1TbJQr1OtVqqnWqRdoqBhnmSbZ5mXapRtcJGOc4t2eYiFfH9AS7qYlgAAARlJREFUKM9jqK9fEGS7VNrDI2+F/nyB1Z4Fa5UKN4TbbeLY7FW0Tatkp3jp7mj7vXzl+4yrDsYoVx+JYz7mXXNSp/a0RN25JMcLPP8umzRcTZW77tNyk63tdprzXdmO+2ZdD9MFe56Y9z3LUG96mcX02n/CW71JH6Qmf8px/cw77ZvVzB+BCj8D5vxhn/vXZh6D4uzf1rN+Cc347j79q/zUL25TPrJMfG/5LvuNZP8rixeZz/mf+vU+Vut+5NL5gPOeb/sd1dZbTs03hBuvmV5JuaRyMfk849nEM7qnEk6IHI8/qn049hB35QGHiv0yZXuMdkXtYC3ebrglcqvYxoj1muvC1nDlrzJYGbpcdHHIMo2FwYv+j3QAAOBSfkZYITwUAAAAAElFTkSuQmCC);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(255, 255, 255, 0)),
+    to(white),
+    color-stop(50%, white)
+  );
+  background: -moz-linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    white 50%,
+    white
+  );
+  background: -o-linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    white 50%,
+    white
+  );
+  background: -ms-linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    white 50%,
+    white
+  );
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    white 50%,
+    white
+  );
+}
+.inter_menu_item_title {
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+.inter_menu_item_description {
+  font-weight: 300;
+  font-size: 12px;
+  text-align: left;
+  margin-bottom: 0;
+  vertical-align: middle;
+}

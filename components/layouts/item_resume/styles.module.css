@@ -1,0 +1,46 @@
+.item_resume_card {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  left: 14px;
+}
+.item_resume_name {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.item_resume_description {
+  font-size: 16px;
+  font-weight: 300;
+  color: #838383;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media (max-width: 991px) {
+  .item_resume_name {
+    font-size: 26px;
+  }
+  .item_resume_description {
+    font-size: 15px;
+  }
+}
+@media (max-width: 600px) {
+  .item_resume_name {
+    font-size: 22px;
+  }
+}
+@media (max-width: 400px) {
+  .item_resume_name {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,82 @@
+.subscription_cards {
+  background-color: #ffffff;
+  margin-top: 20px;
+  width: 90%;
+  border-radius: 30px;
+  padding: 20px;
+  min-height: 400px;
+  transition: all 0.2s;
+}
+.edit_button {
+  text-align: right;
+  margin-top: 12px;
+}
+.editContainer {
+  text-align: right;
+}
+.boxLoadingContainer {
+  text-align: right;
+}
+.subscription_name {
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.subscription_dollar {
+  font-size: 24px;
+}
+.subscription_price {
+  font-weight: 300;
+  font-size: 36px;
+}
+.subscription_total_price {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.subscription_list {
+  font-weight: 300;
+  padding-left: 20px;
+}
+.subscription_list li {
+  margin-bottom: 10px;
+}
+.edit_icon_container {
+  margin-top: 5px;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 5px;
+}
+.edit_icon_container div {
+  background-color: #e9eff5;
+  border-radius: 100%;
+  width: 45px;
+  padding: 10px ;
+}
+.edit_icon_container img {
+  width: 25px;
+}
+@media (max-width: 1200px) {
+  .subscription_cards {
+    width: 90%;
+  }
+  .subscription_name {
+    font-size: 20px;
+  }
+  .subscription_dollar {
+    font-size: 20px;
+  }
+  .subscription_price {
+    font-size: 30px;
+  }
+  .subscription_total_price {
+    font-size: 15px;
+  }
+  .subscription_list {
+    font-size: 15px;
+  }
+}
+@media (max-width: 575px) {
+  .subscription_cards {
+    width: 300px;
+  }
+}

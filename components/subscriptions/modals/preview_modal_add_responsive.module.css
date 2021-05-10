@@ -1,0 +1,138 @@
+
+  .container {
+    position: fixed;
+    width: 40%;
+    z-index: 10000;
+    left: 65%;
+    top: 30%;
+  }
+  .subscription_cards {
+    background-color: #ffffff;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    height: auto;
+    margin-left: 100px;
+    border-radius: 10px;
+    padding: 15px;
+    transition: all 0.2s;
+    text-align: left;
+  }
+
+  .subscription_cards:hover {
+    transform: scale(1.03);
+  }
+
+  .subscription_name {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .subscription_dollar {
+    font-size: 16px;
+    margin: auto;
+  }
+  .subscription_price {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .subscription_total_price {
+    font-size: 35px;
+  }
+  .permonth {
+    font-size: 16px;
+  }
+  .subscription_list {
+    font-weight: 300;
+    padding-left: 20px;
+  }
+  .subscription_list li {
+    font-size: 16px;
+  }
+
+@media (max-width: 959px) {
+  .subscription_name {
+    font-weight: 700;
+    font-size: 10px;
+  }
+  .subscription_dollar {
+    font-size: 8px;
+    margin: auto;
+  }
+  .subscription_price {
+    font-weight: 700;
+    font-size: 10px;
+  }
+  .subscription_total_price {
+    font-size: 18px;
+  }
+  .permonth {
+    font-size: 8px;
+  }
+  .subscription_list {
+    font-weight: 300;
+    padding-left: 20px;
+  }
+  .subscription_list li {
+    font-size: 8px;
+  }
+
+  .container {
+    width: 40%;
+    left: 62%;
+    top: 2%;
+  }
+  .subscription_cards {
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.267);
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 40%;
+    max-width: 40%;
+    left: 57%;
+  }
+}
+
+@media (max-width: 550px) {
+  .subscription_name {
+    font-weight: 700;
+    font-size: 9px;
+  }
+  .subscription_dollar {
+    font-size: 7px;
+    margin: auto;
+  }
+  .subscription_price {
+    font-weight: 700;
+    font-size: 9px;
+  }
+  .subscription_total_price {
+    font-size: 17px;
+  }
+  .permonth {
+    font-size: 7px;
+  }
+  .subscription_list {
+    font-weight: 300;
+    padding-left: 19px;
+  }
+  .subscription_list li {
+    font-size: 7px;
+  }
+  .subscription_cards {
+    padding: 3px;
+  }
+  .container {
+    width: 40%;
+    left: 50%;
+  }
+}
+
+@media (max-width: 415px) {
+  .container {
+    z-index: 99998;
+    width: 30%;
+    left: 48%;
+  }
+}

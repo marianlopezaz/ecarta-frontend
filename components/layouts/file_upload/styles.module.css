@@ -1,0 +1,167 @@
+.card_container {
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 20px;
+  padding: 20px;
+  color: var(--black);
+}
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.upload_container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border: 3px dashed #e9eff5;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.upload_container:hover {
+  background-color: #e6f1ff;
+}
+.upload_container img {
+  width: 60px;
+  border-radius: 15px;
+}
+.info {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.info span {
+  color: #258dff;
+  cursor: pointer;
+  z-index: 99;
+}
+.supports {
+  font-weight: 300;
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #9bb2c7;
+}
+.view_file_container {
+  border: 3px solid #e9eff5;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.img_name_container {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+  top: 7px;
+}
+.img_icon {
+  width: 20px;
+  border-radius: 5px;
+}
+.file_name {
+  font-size: 15px;
+  position: relative;
+  left: 10px;
+  top: 1px;
+}
+.upload_icon {
+  border: none;
+  background-color: #e9eff5;
+  border-radius: 20px;
+  padding: 7px 15px 8px 10px;
+}
+.upload_icon img {
+  width: 22px;
+}
+.upload_icon span {
+  color: #9bb2c7;
+  font-size: 15px;
+  position: relative;
+  left: 5px;
+  top: 3px;
+}
+.uploaded_icon_container img {
+  border-radius: 100%;
+  padding: 10px;
+  background-color: #e8f8f2;
+  width: 40px;
+}
+.file_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.delete_icon_container {
+  margin-top: 5px;
+  cursor: pointer;
+}
+.delete_icon_container img {
+  border-radius: 100%;
+  padding: 10px;
+  background-color: #ffe8eb;
+  width: 40px;
+}
+.view {
+  color: #258dff;
+  font-weight: 700;
+  font-size: 15px;
+  position: relative;
+  top: 2px;
+  left: 10px;
+}
+@media (max-width: 600px) {
+  .title {
+    font-size: 16px;
+  }
+  .upload_container img {
+    width: 50px;
+  }
+  .info {
+    font-size: 16px;
+  }
+  .supports {
+    font-size: 14px;
+  }
+  .recomendations{
+    font-size: 12px;
+  }
+  .img_icon {
+    width: 19px;
+  }
+  .file_name {
+    font-size: 13px;
+  }
+  .upload_icon img {
+    width: 19px;
+  }
+  .upload_icon span {
+    font-size: 13px;
+  }
+  .uploaded_icon_container img {
+    width: 35px;
+  }
+  .file_img {
+    width: 40px;
+    height: 40px;
+  }
+  .delete_icon_container {
+    margin-top: 3px;
+  }
+  .delete_icon_container img {
+    width: 35px;
+  }
+}
+@media (max-width: 400px) {
+  .view {
+    font-size: 14px;
+  }
+  .file_name {
+    font-size: 14px;
+  }
+}

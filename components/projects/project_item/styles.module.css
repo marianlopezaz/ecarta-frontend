@@ -1,0 +1,91 @@
+.restaurant_card {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  padding: 30px;
+  cursor: pointer;
+  transition: all .3s;
+}
+.restaurant_card:hover {
+  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.1);
+}
+.restaurant_name {
+  font-weight: 700;
+  font-size: 18px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.restaurant_description {
+  font-size: 15px;
+  width: 100%;
+  color: #838383;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.delete_btn {
+  width: 16px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+.options_inter_cols {
+  text-align: right;
+  margin-top: 20px;
+}
+.actions_btn {
+  border: 2px solid var(--black);
+  color: var(--black);
+  border-radius: 20px;
+  padding: 5px 15px;
+  margin-left: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.actions_btn:hover {
+  border: 2px solid var(--black);
+  text-decoration: none;
+  background-color: var(--black);
+  color: #ffffff !important;
+}
+.actions_icons {
+  width: 25px;
+}
+@media (max-width: 991px) {
+  .restaurant_card {
+    position: relative;
+    left: 5px;
+  }
+  .options_inter_cols {
+    margin-top: 0px;
+    text-align: center;
+  }
+  .actions_btn {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  .icons_btn {
+    margin-left: 20px;
+    background-color: var(--black);
+    padding: 12px 10px;
+    border-radius: 100%;
+  }
+  .icons_btn img {
+    width: 25px;
+  }
+}
+@media (max-width: 415px) {
+  .restaurant_card {
+    left: 7px;
+  }
+  .actions_btn {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,130 @@
+/* Presentacion Restaurante */
+#menu_background {
+  height: 100vh;
+  min-height: 850px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#menu_container {
+  background-color: #ffffffee;
+  margin: auto;
+  border-radius: 5px;
+}
+#menu_container a {
+  color: var(--black);
+}
+#menu_container a:hover {
+  text-decoration: none;
+}
+#menu_w_medias_container {
+  margin: 50px auto auto auto;
+  border-radius: 30px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+}
+#menu_w_medias_container a {
+  color: var(--black);
+}
+#menu_w_medias_container a:hover {
+  text-decoration: none;
+}
+.info_container {
+  padding: 0 !important;
+}
+.carousel_item {
+  height: 100px !important;
+  text-align: center;
+}
+.advertisement_blur {
+  height: 100px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(6px);
+  -webkit-filter: blur(6px);
+}
+.carousel_item img {
+  width: auto !important;
+  height: 100px !important;
+  position: relative;
+  bottom: 100px;
+}
+.carousel_caption {
+  position: initial !important;
+  height: 100px !important;
+}
+#logo_img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  margin-top: 15px;
+}
+.restaurant_title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 25px;
+  text-transform: capitalize;
+}
+.restaurant_desciption {
+  font-weight: 300;
+  font-size: 15px;
+}
+.menu_title {
+  font-weight: 700;
+  text-align: left;
+  padding-left: 15px;
+  margin-top: 5px;
+  font-size: 18px;
+}
+.menu_img {
+  width: 75%;
+  height: 150px;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-left: 13px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.no_menu_media {
+  width: 75%;
+  height: 150px;
+  border: 1px solid #e6f1ff;
+  border-radius: 20px;
+}
+.no_menu_media img {
+  width: 40px !important;
+  border-radius: 10px;
+  position: relative;
+  top: 40px;
+}
+.no_menu_media p {
+  position: relative;
+  top: 45px;
+  font-size: 8px;
+  color: #258eff98;
+}
+.menu_item_title {
+  font-weight: 700;
+  text-align: left;
+  padding-left: 15px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.menu_item_desciption {
+  font-weight: 300;
+  text-align: left;
+  padding-left: 15px;
+  font-size: 13px;
+}
+#next_slide {
+  font-size: 12px;
+}
+#next_slide_arrow {
+  width: 25px;
+  transform: rotate(180deg);
+  position: relative;
+  left: 10px;
+}

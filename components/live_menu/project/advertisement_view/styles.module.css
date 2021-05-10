@@ -1,0 +1,38 @@
+#advertisement_img_container {
+  height: 100vh;
+  min-height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  filter: blur(6px);
+  -webkit-filter: blur(6px);
+  z-index: 1;
+}
+#countdown_container {
+  position: absolute;
+  top: 1.5vh;
+  right: 2.5%;
+  z-index: 3;
+  background-color: #ffffff9a;
+  padding: 5px;
+  border-radius: 100%;
+}
+.advertisement_img {
+  width: 95%;
+  position: absolute;
+  top: 8vh;
+  left: 2.5%;
+  border-radius: 30px;
+  z-index: 2;
+}
+.advertisement_video{
+  width: 95%;
+  position: absolute;
+  top: 8vh;
+  left: 2.5%;
+  border-radius: 30px;
+  z-index: 2;
+}

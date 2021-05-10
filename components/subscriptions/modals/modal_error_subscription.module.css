@@ -1,0 +1,18 @@
+#email_img{
+    width: 80px;
+    margin: 10px
+}
+
+#modal_title{
+    font-weight: bold;
+
+}
+
+#subscription_status{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#username{
+    text-transform: capitalize;
+}
